@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "BlazingQuartzNet.Standalone": {
+    "BlazingQuartzNet.App": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "environmentVariables": {
