@@ -1,0 +1,23 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "DataSource=app.db;Cache=Shared",
+    "BlazingQuartzNetDb": ""
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "Quartz": {
+    "quartz.jobStore.type": "Quartz.Impl.AdoJobStore.JobStoreTX, Quartz",
+    "quartz.jobStore.driverDelegateType": "Quartz.Impl.AdoJobStore.PostgreSQLDelegate, Quartz",
+    "quartz.jobStore.useProperties": "true",
+    "quartz.serializer.type": "json",
+    "quartz.jobStore.dataSource": "myDS",
+    "quartz.dataSource.myDS.connectionStringName": "BlazingQuartzNetDb",
+    "quartz.dataSource.myDS.provider": "Npgsql"
+  },
+  "AllowedHosts": "*"
+}
+
