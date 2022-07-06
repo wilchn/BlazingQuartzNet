@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-BlazingQuartzNet.App-5A097C20-FD7C-4604-A618-0E0C85C9D44A</UserSecretsId>
+    <UserSecretsId>dotnet-BlazingQuartzNetApp-5A097C20-FD7C-4604-A618-0E0C85C9D44A</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
